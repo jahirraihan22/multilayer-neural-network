@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/sketch.js"></script>
+    <script src="neural_network.js"></script>
+  </head>
+  <body>
+    <div id="result"></div>
+    Set Input X1 (0 to 1) <input onchange='setValue2(parseInt(this.value))' type="range" min="0" max="1" value="0"><br>
+    Set Input X2 (0 to 1) <input onchange='setValue1(parseInt(this.value))' type="range" min="0" max="1" value="0"><br>
+    Set epoch range (1 - 100000)<input onchange='setEpoch(this.value)' type="range" min="1" max="100000" value="1000">
+  </body>
+</html>
